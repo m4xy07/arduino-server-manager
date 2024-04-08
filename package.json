@@ -1,0 +1,23 @@
+{
+  "name": "arduino-data",
+  "version": "1.0.0",
+  "author": "github.com/m4xy07",
+  "description": "backend data collector and db process manager built for arduino weather statrion by Aman Shaikh | github.com/m4xy07",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
