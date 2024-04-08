@@ -50,3 +50,5 @@ serializeJson(jsonDoc, jsonString);
 ```
 
 and JSON Content it sends `{"time":"2024-04-08T23:43:09","temperature":33.09999847,"humidity":30.20000076,"aqi":269,"hi":32.15259933,"raining":"No","wifi_strength":-55}`
+
+You also need to pass content length within the request. As you can see in the arduino code above
