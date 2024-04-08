@@ -5,6 +5,7 @@ A Backend data collector and processor that uses expressjs and MongoDB to accept
 Example of Arduino Code and request JSON that it accepts:
 
 ```
+void loop(){
 WiFiClient client;
 if (client.connect(host, port)) {
     Serial.println("Connected to server");
@@ -45,7 +46,7 @@ serializeJson(jsonDoc, jsonString);
   } else {
     Serial.println("Connection to server failed");
   }
-
+}
 ```
 
 and JSON Content it sends `{"time":"2024-04-08T23:43:09","temperature":33.09999847,"humidity":30.20000076,"aqi":269,"hi":32.15259933,"raining":"No","wifi_strength":-55}`
