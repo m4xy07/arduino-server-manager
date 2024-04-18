@@ -29,6 +29,8 @@ const weatherSchema = new mongoose.Schema({
   hi: Number,
   alt: Number,
   pres: Number,
+  moisture: Number,
+  crop: String,
   raining: String,
   wifiStrength: Number,
 });
@@ -48,6 +50,8 @@ app.post('/data', async (req, res) => {
     hi: req.body.hi,
     alt: req.body.alt,
     pres: req.body.pres,
+    moisture: req.body.moisture,
+    crop: req.body.crop,
     raining: req.body.raining,
     wifiStrength: req.body.wifi_strength,
   });
